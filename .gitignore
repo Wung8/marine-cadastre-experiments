@@ -1,0 +1,18 @@
+# Raw/filtered AIS data and resampled tracks (~7 GB; rebuild with src/fetch_filter.py + src/build_dataset.py)
+data/
+
+# Training checkpoints (rebuilt by the run scripts)
+checkpoints/
+checkpoints_drift/
+
+# Only the best model is versioned; the other 2x2 cells are rebuilt by src/run_drift.sh
+models/*
+!models/noise_only_s*.pt
+
+# Console logs and quick-check outputs
+logs/
+*_smoke/
+
+# Python
+__pycache__/
+.venv/

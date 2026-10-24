@@ -1,0 +1,46 @@
+{
+  "10min": {
+    "dead_reckoning": {
+      "mean_km": 0.6508833169937134,
+      "median_km": 0.19563263654708862,
+      "p90_km": 1.8549748659133911,
+      "cargo_mean_km": 0.24905556440353394,
+      "tanker_mean_km": 0.19748704135417938,
+      "passenger_mean_km": 1.5006461143493652,
+      "service_mean_km": 0.616409957408905,
+      "military_law_mean_km": 1.1180006265640259
+    },
+    "const_velocity": {
+      "mean_km": 0.7998872995376587,
+      "median_km": 0.28240951895713806,
+      "p90_km": 2.2164969444274902,
+      "cargo_mean_km": 0.36169612407684326,
+      "tanker_mean_km": 0.29850566387176514,
+      "passenger_mean_km": 1.6913113594055176,
+      "service_mean_km": 0.7872986793518066,
+      "military_law_mean_km": 1.121083378791809
+    }
+  },
+  "60min": {
+    "dead_reckoning": {
+      "mean_km": 7.325446605682373,
+      "median_km": 4.030389785766602,
+      "p90_km": 17.60700035095215,
+      "cargo_mean_km": 3.8462073802948,
+      "tanker_mean_km": 3.2337148189544678,
+      "passenger_mean_km": 15.425822257995605,
+      "service_mean_km": 6.6862287521362305,
+      "military_law_mean_km": 10.180745124816895
+    },
+    "const_velocity": {
+      "mean_km": 6.770179748535156,
+      "median_km": 3.816697835922241,
+      "p90_km": 16.422348022460938,
+      "cargo_mean_km": 4.092432498931885,
+      "tanker_mean_km": 3.493454694747925,
+      "passenger_mean_km": 13.279047966003418,
+      "service_mean_km": 6.160743236541748,
+      "military_law_mean_km": 9.007460594177246
+    }
+  }
+}
